@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+header, section {
+    padding: 20px 30px;
+}
+
+.nav-section {
+    background: orange;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section textarea {
+    width: 100%;
+    padding: 30px 30px;
+}
+
+section .goog-te-combo {
+    margin-top: 20px;
+    background: white;
+    width: 300px;
+    padding: 10px;
+}
+
+section .goog-te-gadget span {
+    display: none;
+} 
+
+.output-section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.output {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    padding: 30px;
+}
