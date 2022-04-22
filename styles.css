@@ -41,6 +41,7 @@ section h3 {
 section textarea {
     width: 100%;
     padding: 30px 30px;
+    margin-bottom: 30px;
 }
 
 section .goog-te-combo {
@@ -64,4 +65,11 @@ section .goog-te-gadget span {
     height: 300px;
     border: 1px solid black;
     padding: 30px;
+}
+
+
+footer {
+    background: orange;
+    padding: 20px;
+    text-align: center;
 }
